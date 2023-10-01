@@ -1,3 +1,6 @@
+################################################
+##### PROGRAMADO POR: EMERSON C. JESUS     #####
+################################################
 from lib.sistema import *
 
 lista = ['JOGAR', 'SAIR']
