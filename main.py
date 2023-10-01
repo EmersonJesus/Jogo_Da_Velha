@@ -1,7 +1,7 @@
 ################################################
 ##### PROGRAMADO POR: EMERSON C. JESUS     #####
 ################################################
-from lib.sistema import *
+from sistema import *
 
 lista = ['JOGAR', 'SAIR']
 while True:
