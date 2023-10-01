@@ -89,7 +89,7 @@ def verificajogo(tabuleiro):
                 print(f'O JOGADOR {tabuleiro[a]} GANHOU!')
             return True
 
-    if all(val.isdigit() for val in tabuleiro.values()):
+    if all(val == 'X' or val == 'O' for val in tabuleiro.values()):
         print('DEU VELHA!')
         return True
 
